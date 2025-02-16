@@ -24,9 +24,6 @@ RUN mkdir -p /data
 
 COPY app.py /app/
 
-
-
-
 RUN  pip install fastapi
 
 RUN pip install unicorn
